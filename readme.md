@@ -1,12 +1,15 @@
 # 📊 Student Marks Analyzer
 
 ## 📌 Description
-This project is a Python-based data analysis application that evaluates student performance using basic data analysis techniques. It uses Pandas for data handling and Matplotlib for visualization.
+This project is a Python-based data analysis application that evaluates student performance using Pandas and Matplotlib. It allows dynamic input of student data and performs detailed analysis.
 
 ## 🚀 Features
+- Accepts user input for adding new student data
 - Calculates average marks of students
+- Assigns grades based on performance
 - Identifies the top-performing student
-- Displays subject-wise performance
+- Displays subject-wise highest and lowest marks
+- Calculates class average
 - Visualizes data using bar charts
 
 ## 🛠️ Technologies Used
@@ -15,8 +18,9 @@ This project is a Python-based data analysis application that evaluates student 
 - Matplotlib
 
 ## 📈 Output
-- Displays student data with calculated averages
+- Displays updated student dataset with averages and grades
 - Shows topper details
+- Provides subject-wise analysis
 - Generates graphical representation of marks
 
 ## ▶️ How to Run
@@ -26,12 +30,15 @@ This project is a Python-based data analysis application that evaluates student 
 2. Run the program:
    python student_marks_analyzer.py
 
+3. Enter student details when prompted
+
 ## 🎯 Learning Outcome
-- Learned basics of data analysis
-- Understood data visualization techniques
-- Improved Python programming skills
+- Learned data analysis using Pandas
+- Implemented logical operations like grading system
+- Improved Python programming and problem-solving skills
+- Understood data visualization using Matplotlib
 
 ## 📌 Future Improvements
-- Add file input (CSV/Excel)
-- Build GUI interface
-- Add more subjects and analytics
+- Save data to CSV file
+- Build a GUI interface
+- Add more advanced analytics
